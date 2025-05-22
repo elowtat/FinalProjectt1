@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Качалка Сарычева - запись в зал</title>
+        <link rel = "stylesheet" href="style2.css">
+    </head>
+
+    <body>
+        <div class = "div1">
+            <video autoplay loop muted class="bob" id="bob">
+            <source src="back.mp4" type="video/mp4"></source>
+        </video>
+        <ul>
+            <nav>
+                <li><a href = "index.html">Главная страница зала</a></li>
+                <li><a href = "index2.html">Запись в зал</a></li>
+                <li><a href = "index3.html">Сильнейшие качки зала</a></li>
+            </nav>
+        </ul>
+        </div>
+        <div class = "div2">
+            <form>
+                <label for = "name">Имя: </label>
+                <input type = "text" name = "name" placeholder="Введите сюда своё имя и Фамилию" required>
+                <label for = "login">Почта для связи: </label>
+                <input type = "text" name = "email" placeholder="Введите сюда свой адрес электронной почты" required>
+                <label for = "time">Как часто вы хотите ходить в зал?</label>
+                <select name = "time">
+                    <option>2 раза в неделю(1200руб/мес)</option>
+                    <option>3 раза в неделю(1450руб/мес)</option>
+                    <option>Безлимит(2300руб/мес)</option>
+                </select>
+                
+
+                <input class = "bob3" type = "submit" placeholder="Записаться">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: rgba(6, 3, 3, 0.953);
+}
+
+img{
+    position: absolute;
+    width: 98%;
+    border-radius: 12px;
+    z-index: 0;
+    transition: 0.2s ease-in-out;
+    filter: blur(1000px)
+}
+
+img:hover{
+    filter:blur(0);
+    transition: 4s;
+}
+
+
